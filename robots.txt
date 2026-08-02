@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://honda0415yusaku-web.github.io/YH-BRANDS-Website/sitemap.xml
+Sitemap: https://yh-brands.github.io/YH-BRANDS-Website/sitemap.xml
