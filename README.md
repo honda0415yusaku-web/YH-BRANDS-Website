@@ -21,4 +21,4 @@ GitHub Desktopへ登録できる静的ホームページです。
 - `script.js`：メニューと表示アニメーション
 - `images`：画像とアイコン
 
-Googleフォームを作成したあと、そのURLをContact部分へ追加できます。
+お問い合わせ先にはGoogleフォームを設定しています。
