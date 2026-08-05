@@ -1,0 +1,9 @@
+{
+  "name": "yh-brands-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "generate:sitemap": "node scripts/generate-sitemap.mjs",
+    "check:seo": "node scripts/check-seo.mjs"
+  }
+}

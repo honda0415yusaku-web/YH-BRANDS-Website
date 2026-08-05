@@ -33,22 +33,42 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "Organization",
-    "@id": "https://yh-brands.github.io/YH-BRANDS-Website/#organization",
-    "name": "YH BRANDS",
-    "url": "https://yh-brands.github.io/YH-BRANDS-Website/",
-    "logo": "https://yh-brands.github.io/YH-BRANDS-Website/images/favicon.png",
-    "description": "YH BRANDSは、ブランド企画・運営、アパレル生産管理、プロジェクトデザインを行っています。展開ブランドはSAKULESS・GROWVAです。",
-    "brand": [
+    "@graph": [
       {
-        "@type": "Brand",
-        "name": "SAKULESS",
-        "url": "https://sakuless.base.shop/"
+        "@type": "Organization",
+        "@id": "https://yh-brands.github.io/YH-BRANDS-Website/#organization",
+        "name": "YH BRANDS",
+        "url": "https://yh-brands.github.io/YH-BRANDS-Website/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://yh-brands.github.io/YH-BRANDS-Website/images/favicon.png",
+          "width": 512,
+          "height": 512
+        },
+        "description": "YH BRANDSは、ブランド企画・運営、アパレル生産管理、プロジェクトデザインを行っています。展開ブランドはSAKULESS・GROWVAです。",
+        "brand": [
+          {
+            "@type": "Brand",
+            "name": "SAKULESS",
+            "url": "https://sakuless.base.shop/"
+          },
+          {
+            "@type": "Brand",
+            "name": "GROWVA",
+            "url": "https://basketwear.base.shop/"
+          }
+        ]
       },
       {
-        "@type": "Brand",
-        "name": "GROWVA",
-        "url": "https://basketwear.base.shop/"
+        "@type": "WebSite",
+        "@id": "https://yh-brands.github.io/YH-BRANDS-Website/#website",
+        "url": "https://yh-brands.github.io/YH-BRANDS-Website/",
+        "name": "YH BRANDS",
+        "description": "Brand / Production / Project Design",
+        "publisher": {
+          "@id": "https://yh-brands.github.io/YH-BRANDS-Website/#organization"
+        },
+        "inLanguage": "ja-JP"
       }
     ]
   }
